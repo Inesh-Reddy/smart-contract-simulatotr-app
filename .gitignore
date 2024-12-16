@@ -1,0 +1,20 @@
+# Dependency directories
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Transpiled or compiled files
+/dist/
+.babel_cache
+.coverage
+.nyc_output/
+.idea/
+
+# OS-specific files
+.DS_Store
+.env
+
+# Optional: Ignore editor configuration files
+.editorconfig
+.vscode/
