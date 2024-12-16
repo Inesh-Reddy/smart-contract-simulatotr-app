@@ -3,6 +3,9 @@ require("dotenv").config();
 const app = express();
 app.use(express.json());
 
+const contractsRouter = require("./routes/contracts");
+app.use("/contracts", contractsRouter);
+
 const MONGODB_URL = process.env.MONGODB_URL;
 const mongoose = require("mongoose");
 mongoose.set("strictQuery", false);
